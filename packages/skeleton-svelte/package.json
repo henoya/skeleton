@@ -1,5 +1,5 @@
 {
-	"name": "@skeletonlabs/skeleton-svelte",
+	"name": "@henoya/skeleton-svelte",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -15,6 +15,15 @@
 		"format": "prettier --write .",
 		"test:integration": "playwright test",
 		"test:unit": "vitest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/henoya/skeleton.git",
+		"directory": "packages/skeleton-svelte/",
+		"defaultBranch": "next-private",
+		"tags": [
+            "v0.0.1"
+        ]
 	},
 	"exports": {
 		".": {
