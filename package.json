@@ -1,10 +1,10 @@
 {
 	"name": "skeleton",
 	"version": "1.0.0",
-	"description": "monorepo for @skeletonlabs/skeleton",
+	"description": "monorepo for @henoya/skeleton",
 	"private": true,
 	"scripts": {
-		"test": "pnpm -F @skeletonlabs/skeleton test",
+		"test": "pnpm -F @henoya/skeleton test",
 		"preinstall": "npx only-allow pnpm",
 		"postinstall": "pnpm -r sync",
 		"dev": "pnpm --no-sort --filter=skeleton.dev dev",
@@ -24,10 +24,10 @@
 	"homepage": "https://skeleton.dev/",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/skeletonlabs/skeleton.git"
+		"url": "https://github.com/henoya/skeleton.git"
 	},
 	"bugs": {
-		"url": "https://github.com/skeletonlabs/skeleton/issues"
+		"url": "https://github.com/henoya/skeleton/issues"
 	},
 	"keywords": [
 		"cli",

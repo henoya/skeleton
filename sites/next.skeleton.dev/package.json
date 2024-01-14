@@ -2,7 +2,7 @@
 	"name": "next.skeleton.dev",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/skeletonlabs/skeleton.git"
+		"url": "https://github.com/henoya/skeleton.git"
 	},
 	"license": "MIT",
 	"homepage": "https://skeleton.dev/",
@@ -21,7 +21,7 @@
 		"@astrojs/react": "^3.0.9",
 		"@astrojs/svelte": "^5.0.3",
 		"@astrojs/tailwind": "^5.1.0",
-		"@skeletonlabs/skeleton": "workspace:*",
+		"@henoya/skeleton": "workspace:*",
 		"astro": "^4.1.0",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
