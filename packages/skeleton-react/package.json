@@ -2,6 +2,7 @@
   "name": "skeleton-react",
   "version": "0.0.1",
   "type": "module",
+	"private": true,
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

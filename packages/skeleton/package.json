@@ -2,6 +2,7 @@
 	"name": "@skeletonlabs/skeleton",
 	"version": "3.0.0",
 	"description": "Core plugin for Skeleton.",
+	"private": true,
 	"scripts": {
 		"build": "pnpm build:jss && tsup",
 		"build:jss": "tsx --tsconfig ./src/plugin/tsconfig.json ./scripts/generate-jss.ts",
